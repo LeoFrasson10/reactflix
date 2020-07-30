@@ -23,22 +23,23 @@ function Home() {
       />
 
       <Carousel
+        ignoreFirstVideo
         category={dadosIniciais.categorias[1]}
       />
 
-      <Carousel
+      <Carousel ignoreFirstVideo
         category={dadosIniciais.categorias[2]}
       />      
 
-      <Carousel
+      <Carousel ignoreFirstVideo
         category={dadosIniciais.categorias[3]}
       />      
 
-      <Carousel
+      <Carousel ignoreFirstVideo
         category={dadosIniciais.categorias[4]}
       />      
 
-      <Carousel
+      <Carousel ignoreFirstVideo
         category={dadosIniciais.categorias[5]}
       />      
 

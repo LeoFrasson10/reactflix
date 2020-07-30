@@ -18,8 +18,13 @@ function VideoCard({ videoTitle, videoURL, categoryColor }) {
       href={videoURL}
       target="_blank"
       style={{ borderColor: categoryColor || 'red' }}
-      title={videoTitle}
-    />
+      title={videoTitle}>
+      <VideoCardContainer.Title backGroundColor={ categoryColor}>
+        <VideoCardContainer.Title.Text>
+        {videoTitle}
+        </VideoCardContainer.Title.Text>
+      </VideoCardContainer.Title>
+    </VideoCardContainer>
   );
 }
 
